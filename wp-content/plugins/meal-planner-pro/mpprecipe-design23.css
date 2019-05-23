@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.mpp-recipe-author {
+    margin-top: -4px !important;
+}
+
+/*
+
+DESIGN 2
+
+*/
+#mpprecipe-container p {
+        margin: 0.3em 0;
+}
+div#mpp-buttons {
+    float: none !important;
+}
+div#mpp-buttons div {
+  margin-top:3px !important;
+}
+
+.mpprecipe .recipe-bottomtags {
+  margin-top: 30px !important;
+}
+#mpprecipe-yield {
+  padding-top: 10px;
+}
+.mpprecipe {
+  color:#444;
+  font-family: Verdana, sans-serif;
+  font-weight:300 !important;
+  font-size:15px !important;
+  word-wrap: initial;
+}
+#mpprecipe-serving-size {
+    font-family:Verdana !important;
+}
+.mpprecipe div, .mpprecipe p {
+  box-sizing: border-box !important;
+}
+#mpprecipe-yield {
+    color: #888888;
+    text-transform: initial !important;
+    font-weight: 300 !important;
+    margin-bottom: 0 !important;
+}
+.mpp-author {
+  color: #888;
+  font-size: 14px !important;
+  margin: 6px 0 !important;
+}
+.mpp-author a span {
+  font-size: 14px !important;
+}
+#mpprecipe-title {
+  color: #999;
+  font-family: 'Source Sans Pro', Helvetica, Arial, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px !important;
+}
+#mpprecipe-summary {
+  font-size:30px !important;
+  color:#999999;
+  font-style:italic !important;
+  font-weight:300 !important;
+
+}
+#mpprecipe-container #mpprecipe-summary .summary {
+    margin: 0px 0;
+    font-size: 12px;
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+  color: #999;
+  font-family: 'Source Sans Pro', Helvetica, Arial, serif;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  border-top: dotted #999 1px !important;
+  border-bottom: dotted #999 1px !important;
+}
+
+#mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+  display: block !important;
+  text-transform: initial;
+  letter-spacing: 1px;
+}
+.mpprecipe .h-4 {
+    color: #999;
+    font-family: 'Source Sans Pro', Helvetica, Arial, serif;
+    font-weight: 300 !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 17px !important;
+    padding: 5px 0 !important;
+}
+#mpprecipe-ingredients-list li, #mpprecipe-instructions-list li {
+    margin-bottom: 0.4em;
+    margin-left: 2em;
+}
+.butn-link
+{
+  width:  calc(50% - 3px);
+  height: 35px;
+  background-color:#fff;
+  cursor: pointer;
+  color:#999999;
+  border:solid #999999 3px !important;
+  text-align:center;
+  line-height:30px !important;
+  vertical-align:middle !important;
+  font-size:13px !important;
+  font-weight:300 !important;
+  margin-top:3px !important;
+  min-width: 100px;
+}
+.save-button img {
+  display: none !important;
+}
+.butn-link:hover
+{
+  background-color:#f1f1f1;
+  color:#aaaaaa;
+  border:solid #aaaaaa 3px !important;
+}
+
+.save-button {
+  width:  calc(50% - 3px);
+  height: 35px;
+  background-color:#999999;
+  cursor: pointer;
+  color:#fff;
+  text-align:center;
+  line-height:35px !important;
+  vertical-align:middle !important;
+  font-size:13px !important;
+  font-weight:300 !important;
+  margin-top:3px !important;
+  min-width: 100px;
+}
+.save-button:hover
+{
+  background-color:#aaaaaa;
+}
+
+#mpprecipe-yield {
+  text-transform:uppercase;
+  margin-top:0 !important;
+  clear: both;
+}
+
+.mpp-top {
+  overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.mpp-topright {
+  width:40%;
+  float:right;
+
+}
+.mpp-topleft {
+  float:left;
+  width:60%;
+  padding:0 !important;
+  padding-right:30px  !important;
+}
+.mpp-topleft .fl-l {
+    width: 100%;
+}
+.mpp-toprightimage {
+    width: 100%;
+    padding-top:  100% !important;
+    background-position: center;
+    margin: 0 auto !important;
+}
+
+
+#mpprecipe-container ul {
+    margin: 1em;
+    padding: 0 0 0 0em;
+}
+#mpprecipe-cook-time {
+  border-left:dotted #999 1px !important;
+  border-right:dotted #999 1px !important;
+
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+  float:left;
+  width:33%;
+  padding:10px !important;
+}
+
+
+
+/* START BUTTON CHANGES */
+#mpp-buttons-2 {
+    padding-bottom: 10px !important;
+    }
+#mpp-buttons-2 a {
+  color:white !important;
+}
+#mpp-buttons-2 a:hover {
+  text-decoration:none !important;
+}
+.myrecipe-button, .mylist-button, .mycal-button {
+    width: calc(33.3% - 4px );
+    height: 35px;
+    background-color: #999999;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px !important;
+    vertical-align: middle !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    margin-top: 3px !important;
+}
+.myrecipe-button:hover, .mycal-button:hover, .mylist-button:hover  {
+      background-color:#aaaaaa;
+}
+
+@media screen and (max-width: 530px) {
+      .mycal-button, .mylist-button, .myrecipe-button
+      {
+              width:  100%;
+      }
+}
+/* END BUTTON CHANGES */
+
+.mpp-recipe-author {
+    padding-bottom: 20px !important;
+    color: #aaaaaa !important;
+    font-style: initial !important;
+    float: none;
+}
+
+.mpprecipe {
+  font-size:12px !important;
+
+}
+#mpprecipe-yield {
+  font-size:14px !important;
+}
+
+
+
+@media screen and (max-width: 862px) {
+  .mpp-topleft {
+    clear:both;
+    float: none;
+    width: 100%;
+    padding-right: 0px !important;
+  }
+  .mpp-topright {
+    width: 100%;
+    position: initial;
+    padding-top: 30px !important;
+
+  }
+}
+@media screen and (max-width: 480px) {
+
+  #mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+    width:100%;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  #mpprecipe-cook-time {
+    border:0px !important;
+  }
+  #mpprecipe-prep-time {
+    margin-top: 30px !important;
+  }
+  #mpprecipe-total-time {
+    margin-bottom: 30px !important;
+  }
+
+  div#mpp-buttons {
+    margin-top: 10px !important;
+    clear: both !important;
+    float:none !important;
+    padding-top:40px !important;
+  }
+  .mpp-button {
+    display: block !important;
+    margin: 3px auto !important;
+    float: none !important;
+  }
+}

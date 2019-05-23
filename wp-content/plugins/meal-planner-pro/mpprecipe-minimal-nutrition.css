@@ -1,0 +1,148 @@
+.nutbox {
+    border: none !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+    font-size: 15px !important;
+    border: double black 1px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Lato";
+    padding-bottom: 1.5rem !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.expand_wrapper .nutbox {
+    background: #f9f9f9;
+}
+
+.nutbox > .nut-message {
+    font-size: 0.85rem !important;
+    transition: none;
+    box-shadow: none;
+    text-decoration: underline;
+    line-height: 1.2 !important;
+    font-weight: 400;
+    color: #333 !important;
+    margin: 1.5rem auto 1rem !important;
+}
+
+.nutbox > .nut-message:hover {
+    transition: none;
+    box-shadow: none;
+}
+
+.esha-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    padding: 0.3rem !important;
+    background-color: #fff;
+}
+
+.nut-toprow img {
+    margin: 0 auto;
+    width: 5rem;
+    padding-bottom: 10px;
+}
+
+.nut-toprow > .nutrition-minimal-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto !important;
+}
+
+@media (min-width: 400px) {
+    .nut-toprow > .nutrition-minimal-display {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 767px) {
+    .nut-toprow > .nutrition-minimal-display {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+.nut-topouter {
+    width: 50%;
+}
+
+@media (min-width: 767px) {
+    .nut-topouter {
+        width: 25%;
+    }
+}
+
+.nut-circle {
+    background: #74c48c;
+    padding: 30px;
+    border-radius: 500px;
+    color: #fff;
+    width: 90%;
+    max-width: 10rem;
+    margin: 0 auto !important;
+}
+
+.nut-carbs,
+.nut-protein {
+    margin-top: 0.3rem !important;
+}
+
+@media (min-width: 767px) {
+    .nut-carbs,
+    .nut-protein {
+        margin-top: 0 !important;
+    }
+}
+
+.nut-tags a {
+    color: black;
+    background: #d1d3d4;
+    text-decoration: none;
+    padding: 3px 25px;
+    border-radius: 3px;
+    font-size: 16px !important;
+    white-space: nowrap;
+    margin: 2px 0px !important;
+    display: inline-block;
+}
+
+.nut-tags a:hover {
+    background: #aaa;
+}
+
+.expand_heading > input[type="checkbox"]:checked ~ .toggle-container-nutrition {
+    max-height: 500px;
+}
+
+/* when displayed above or below */
+
+.outer-nutrition .nutbox {
+    padding-bottom: 0 !important;
+}
+
+.outer-nutrition .toggle-container-nutrition {
+    max-height: 400px;
+}
+
+.outer-nutrition .expand-button {
+    display: none;
+}
+
+.outer-nutrition h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.outer-nutrition-below {
+    padding-top: 2rem;
+}
+
+.outer-nutrition-above {
+    padding-bottom: 2rem;
+}

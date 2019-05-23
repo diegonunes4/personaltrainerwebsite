@@ -1,0 +1,61 @@
+.swpm-profile-company-row {
+    display: none;
+}
+
+.swpm-edit-profile-form input[type="text"], .swpm-edit-profile-form input[type="password"]{
+width: 100%;
+      padding: 5px 10px;
+    border: 1px solid #d7d7d7;
+    outline: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #8c9597;
+    resize: none;
+    display: block;
+    font-size: 12px;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+.swpm-profile-street-row{
+	display: none;
+}
+
+.swpm-profile-state-row{
+	display:none;
+}
+
+.swpm-profile-membership-level-row{
+	display: none;
+}
+
+.markup-format table tbody tr td{
+padding: 5px;
+}
+
+.markup-format table tbody{
+padding: 100px;
+}
+
+.swpm-profile-username-row > td {
+padding: 100px;
+
+}
+
+.swpm-logged-label{
+color: #f47b22; font-family: 'Open Sans', sans-serif; font-size: 25px; font-weight: 300; line-height: 40px; margin: 0 0 16px;
+}
+
+.swpm-login-widget-logged{
+text-align: center;
+}
+
+.markup-format a {
+	text-decoration: none;
+  	text-align: center;
+  padding-top: 5px;
+}
+
+.swpm-edit-profile-link{
+padding: 4px;
+}

@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Montserrat');
+
+.mpp-recipe-author {
+    margin-top: -4px !important;
+}
+
+/*
+
+DESIGN 2
+
+*/
+
+div#mpp-buttons {
+    float: none !important;
+}
+div#mpp-buttons div {
+  margin-right:10px;
+  margin-top:10px !important;
+}
+
+.mpprecipe {
+  color:#444;
+  font-family: 'Lato', sans-serif;
+  font-weight:300 !important;
+  font-size:14px !important;
+  word-wrap: initial;
+}
+#mpprecipe-serving-size {
+    font-family:'Lato' !important;
+}
+.mpprecipe div, .mpprecipe p {
+  box-sizing: border-box !important;
+}
+content-box
+#mpprecipe-yield {
+  font-size:18px !important;
+  color:#888888;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  font-weight:300 !important;
+}
+#mpprecipe-title {
+  font-size:38px !important;
+  letter-spacing:1px;
+  color:#ca3811;
+  font-weight:300 !important;
+}
+#mpprecipe-summary {
+  font-size:30px !important;
+  color:#ca3811;
+  font-style:italic !important;
+  font-weight:300 !important;
+
+}
+#mpprecipe-container #mpprecipe-summary .summary {
+    margin: 0px 0;
+    font-size: 20px;
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+  color:#bbbbbb;
+  font-weight:400 !important;
+  font-size:19px !important;
+
+}
+#mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+  display:block;
+  font-weight:300;
+  color:#444444;
+  font-size:30px !important;
+  padding-bottom:8px;
+}
+.mpprecipe .h-4 {
+  color:#ca3811;
+  font-size:22px !important;
+  font-weight:400 !important;
+
+}
+.butn-link
+{
+  width:  100%;
+  height: 40px;
+  background-color:#fff;
+  cursor: pointer;
+  color:#ca3811;
+  border:solid #ca3811 3px !important;
+  border-radius:3px;
+  text-align:center;
+  line-height:35px !important;
+  vertical-align:middle !important;
+  font-size:14px !important;
+  font-weight:700 !important;
+  margin-top:3px !important;
+
+}
+.save-button img {
+  line-height:40px !important;
+  vertical-align:middle !important;
+}
+.butn-link:hover
+{
+  background-color:#f1f1f1;
+  color:#e1441a;
+  border:solid #e1441a 3px !important;
+}
+
+.save-button
+{
+  width:  100%;
+  height: 40px;
+  background-color:#ca3811;
+  cursor: pointer;
+  color:#fff;
+  border-radius:3px;
+  text-align:center;
+  line-height:40px !important;
+  vertical-align:middle !important;
+  font-size:14px !important;
+  font-weight:700 !important;
+  margin-top:3px !important;
+
+}
+.save-button:hover
+{
+  background-color:#e1441a;
+}
+
+#mpprecipe-yield {
+  text-transform:uppercase;
+  margin-top:0 !important;
+}
+
+.mpp-top {
+  overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.mpp-topright {
+  width:40%;
+  float:right;
+
+}
+.mpp-topleft {
+  float:left;
+  width:60%;
+  padding:0 !important;
+  padding-right:30px  !important;
+}
+.mpp-topleft .fl-l {
+    width: 100%;
+}
+.mpp-toprightimage {
+    width: 100%;
+    padding-top:  100% !important;
+    background-position: center;
+    margin: 0 auto !important;
+}
+
+
+#mpprecipe-container ul {
+    margin: 1em;
+    padding: 0 0 0 0em;
+}
+#mpprecipe-cook-time {
+  border-left:solid #cccccc 1px !important;
+  border-right:solid #cccccc 1px !important;
+
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+  float:left;
+  width:33%;
+  padding:10px !important;
+}
+
+
+
+/* START BUTTON CHANGES */
+#mpp-buttons-2 {
+    padding-bottom: 20px !important;
+    }
+#mpp-buttons-2 a {
+  color:white !important;
+}
+#mpp-buttons-2 a:hover {
+  text-decoration:none !important;
+}
+.myrecipe-button
+{
+      width:  calc(33.3% - 4px );
+      height: 40px;
+      background-color:rgb(202, 56, 17);
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.myrecipe-button:hover
+{
+      background-color:rgb(225, 68, 26);
+}
+.mylist-button
+{
+      width:  calc(33.3% - 4px );
+      height: 40px;
+      background-color:rgb(202, 56, 17);
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.mylist-button:hover
+{
+      background-color:rgb(225, 68, 26);
+}
+.mycal-button
+{
+      width:  calc(33.3% - 4px );
+      height: 40px;
+      background-color:rgb(202, 56, 17);
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.mycal-button:hover
+{
+      background-color:rgb(225, 68, 26);
+}
+@media screen and (max-width: 530px) {
+      .mycal-button, .mylist-button, .myrecipe-button
+      {
+              width:  100%;
+      }
+}
+/* END BUTTON CHANGES */
+
+.mpp-recipe-author {
+    padding-bottom: 20px !important;
+    display: block !important;
+    color: #E9623D !important;
+    font-style: italic !important;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .mpprecipe {
+    font-size:15px !important;
+  }
+  #mpprecipe-yield {
+    font-size:16px !important;
+  }
+  #mpprecipe-title {
+    font-size:40px !important;
+  }
+  #mpprecipe-summary {
+    font-size:30px !important;
+  }
+  #mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+    font-size:27px !important;
+  }
+  .mpprecipe .h-4 {
+    font-size:20px !important;
+  }
+  .butn-link {
+    font-size:12px !important;
+  }
+  .save-button {
+    font-size:12px !important;
+  }
+
+}
+@media screen and (max-width: 1050px) {
+
+    .mpprecipe {
+      font-size:14px !important;
+    }
+    #mpprecipe-yield {
+      font-size:14px !important;
+    }
+    #mpprecipe-title {
+      font-size:32px !important;
+    }
+    #mpprecipe-summary {
+      font-size:26px !important;
+
+
+    }
+    #mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+      font-size:15px !important;
+
+    }
+    #mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+      font-size:25px !important;
+    }
+    .mpprecipe .h-4 {
+      font-size:18px !important;
+
+    }
+    .butn-link
+    {
+
+      font-size:13px !important;
+
+    }
+
+
+    .save-button
+    {
+
+      font-size:13px !important;
+
+    }
+
+}
+@media screen and (max-width: 862px) {
+  .mpp-topleft {
+    clear:both;
+    float: none;
+    width: 100%;
+    padding-right: 0px !important;
+  }
+  .mpp-topright {
+    width: 100%;
+    position: initial;
+    padding-top: 30px !important;
+
+  }
+}
+@media screen and (max-width: 480px) {
+
+  #mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+    width:100%;
+    margin: 0 !important;
+      text-align: center !important;
+  }
+  #mpprecipe-cook-time {
+    border-left:solid #cccccc 0px !important;
+    border-right:solid #cccccc 0px !important;
+  }
+  #mpprecipe-summary {
+    padding-bottom:40px;
+  }
+  div#mpp-buttons {
+    margin-top: 10px !important;
+    clear: both !important;
+    float:none !important;
+    padding-top:40px !important;
+  }
+  .mpp-button {
+    display: block !important;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+}
+
+
+/*----------  Meal Planner Pro ----------*/
+.mpprecipe-container-border {
+  border-color: rgba(211, 211, 211, 1.0) !important;
+  border-radius: 5px;
+}
+
+#mpprecipe-container.mpprecipe {
+  font-family: 'Montserrat';
+  position: relative;
+  padding: 20px 10px 0;
+}
+
+#mpprecipe-container.mpprecipe .mpp-recipe-author {
+  font-size: 12px !important;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  font-style: normal !important;
+
+  color: rgba(88, 89, 91, 1.0) !important;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-yield {
+  font-size: 14px !important;
+  text-transform: none;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-title {
+  font-family: 'Bitter', serif;
+  font-size: 25px !important;
+  color: #DD7123;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-summary .summary {
+  font-family: 'Bitter', serif;
+  font-size: 14px !important;
+  color: rgba(88, 89, 91, 1.0);
+}
+
+#mpprecipe-container.mpprecipe .fl-l {
+  margin: 20px 0;
+  padding: 5px;
+  border-top: 1px solid rgba(209, 211, 212, 1.0);
+  border-bottom: 1px solid rgba(209, 211, 212, 1.0);
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-prep-time,
+#mpprecipe-container.mpprecipe #mpprecipe-cook-time,
+#mpprecipe-container.mpprecipe #mpprecipe-total-time {
+  font-size: 12px !important;
+  width: 33.3333333%;
+  margin: 10px 0;
+  padding: 0 10px !important;
+  text-align: center;
+  color: rgba(88, 89, 91, 1.0);
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-prep-time span,
+#mpprecipe-container.mpprecipe #mpprecipe-cook-time span,
+#mpprecipe-container.mpprecipe #mpprecipe-total-time span {
+  font-size: 12px !important;
+  padding: 2px;
+  color: rgba(88, 89, 91, 1.0);
+}
+
+#mpprecipe-container.mpprecipe.mpprecipe .zlclear {
+  clear: none;
+}
+
+#mpprecipe-container.mpprecipe .mpp-topright {
+  padding-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+#mpprecipe-container.mpprecipe .mpp-button {
+  background: #DD7123;
+}
+
+#mpprecipe-container.mpprecipe .mpp-button.butn-link {
+  color: #DD7123;
+  border-color: #DD7123 !important;
+  background: rgba(255, 255, 255, 1.0);
+}
+
+#mpprecipe-container.mpprecipe .mpp-rmvd {
+  display: none;
+}
+
+#mpprecipe-container.mpprecipe #mpp-buttons {
+  padding-top: 0 !important;
+}
+
+#mpprecipe-container.mpprecipe #mpp-buttons > div,
+#mpprecipe-container.mpprecipe #mpp-buttons-2 > a {
+  float: left !important;
+
+  width: 48%;
+  margin: 5px 2% 0 0 !important;
+}
+
+#mpprecipe-container.mpprecipe #mpp-buttons-2 > a {
+  font-size: 12px !important;
+  font-size: 1.2rem !important;
+
+  width: 32%;
+}
+
+#mpprecipe-container.mpprecipe #mpp-buttons > div:last-of-type,
+#mpprecipe-container.mpprecipe #mpp-buttons-2 > a:last-of-type {
+  margin-right: 0 !important;
+}
+
+#mpprecipe-container.mpprecipe #mpp-buttons-2 {
+  clear: both;
+  overflow: auto;
+
+  margin-bottom: 20px;
+  padding-bottom: 0 !important;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-ingredients,
+#mpprecipe-container.mpprecipe #mpprecipe-instructions,
+#mpprecipe-container.mpprecipe #mpprecipe-notes {
+  font-family: 'Bitter', serif;
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+  clear: left;
+  margin-right: 0 !important;
+  text-transform: uppercase;
+  color: #6D6A75;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-tags,
+#mpprecipe-container.mpprecipe #mpprecipe-panel {
+  font-family: 'Bitter', serif;
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+  clear: left;
+  margin-right: 0 !important;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-ingredients-list,
+#mpprecipe-container.mpprecipe #mpprecipe-instructions-list {
+  margin: 20px !important;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-instructions-list {
+  margin-left: 10px !important;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-ingredients-list li,
+#mpprecipe-container.mpprecipe #mpprecipe-instructions-list li,
+#mpprecipe-container.mpprecipe #mpprecipe-notes-list p {
+  font-size: 14px;
+  margin-right: 0 !important;
+  margin-bottom: 0.4rem;
+}
+
+#mpprecipe-container.mpprecipe #mpprecipe-ingredients-list li {
+  list-style-type: disc;
+}

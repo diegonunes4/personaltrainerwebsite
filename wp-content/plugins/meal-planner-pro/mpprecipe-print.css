@@ -1,0 +1,65 @@
+#mpprecipe-container
+{
+    -webkit-print-color-adjust:exact
+}
+#mpprecipe-container img
+{
+    max-width:70%;
+}
+.hide-print
+{
+    background: none !important;
+}
+#mpp-buttons,#mpp-buttons-2
+{
+    display: none;
+}
+#mpprecipe-container
+{
+    width: 650px;
+    margin-top:20px;
+}
+#mpprecipe-container #mpp-printed-copyright-statement,#mpprecipe-container #mpp-printed-permalink
+{
+    display: block;
+    border-top: 1px dotted black;
+}
+.adunit, .adunitlabel, .adunitwrapper
+{
+    display : none !important;
+}
+
+/* Don't show Chicory Button in Print View */
+.power-div {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+/* Limit Nutrition info box size */
+.nutbox {
+  width: 650px;
+  font-weight: 700;
+  height: 40px;
+}
+.nutbox img {
+  max-width: 96px;
+}
+.nutbox .nut-circle {
+  font-weight: 400;
+}
+.nutbox .nut-message {
+  display: none;
+}
+.nut-toprow img {
+  float: left;
+  width: 26%;
+  margin-right: 4%;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.nut-topouter {
+  width: 15.5%;
+}
+
+#mpprecipe-tags, #mpprecipe-panel {display: none;}
